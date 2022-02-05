@@ -1,0 +1,315 @@
+        /*FOR THE HOME PAGE!*/
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+            background-color: yellow;
+        }
+
+
+
+
+        /* Style for the holistic format of the page*/
+
+        section {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: whitesmoke;
+        }
+
+        @keyframes background {
+            0% {
+                opacity: 0%;
+            }
+
+            50% {
+                opacity: 50%;
+                margin-top: 4rem;
+            }
+
+            100% {
+                opacity: 100%;
+                margin-top: 0rem;
+            }
+        }
+
+
+        /* Class that includes the menu's and the school logo */
+
+        header {
+            position: relative;
+            float: top;
+            display: flex;
+            justify-content: space-between;
+            /* This makes sure that there is a flexible blank space between the menu buttons and the logo*/
+            align-items: center;
+            margin-top: .5%;
+            background-color: #228B22;
+            width: all;
+            height: auto;
+            padding: 10px;
+        }
+        .logoname{
+            font-size: 25px;
+        }
+
+        label {
+            display: none;
+        }
+
+        .logo{
+            width: 75px;
+            border-radius: 50%;
+            float: left;
+            position: relative;
+        }
+
+
+        /* Hover and click response */
+
+        header .navigation a {
+            color: #000;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 1px;
+            padding: 2px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        header .navigation a:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        header .navigation a:hover {
+            background: #fff;
+        }
+
+
+
+        footer {
+            background-color: #228B22;
+            width: 100%;
+            height: 200px;
+            position: bottom;
+        }
+
+        footer .footsie1 {
+            position: absolute;
+            width: 40%;
+            margin-top: 1%;
+            margin-left: 2%;
+
+        }
+
+        footer .footsie2 {
+            position: absolute;
+            width: 25%;
+            margin-top: 1%;
+            margin-left: 79%;
+
+        }
+
+        footer .footsie3 {
+            position: absolute;
+            width: 25%;
+            margin-top: 1%;
+            margin-left: 89%;
+
+        }
+
+        footer .logo {
+            width: 150px;
+            border-radius: 50%;
+            position: absolute;
+            margin-top: 1.7%;
+            margin-left: 39%;
+        }
+
+        footer .logo:hover {
+            width: 165px;
+            transition: 0.2s;
+            margin-left: 38%;
+            cursor: pointer;
+        }
+
+        #container {
+            float: center;
+            align-self: center;
+            background-color: #004526;
+            width: 70%;
+            height: fit-content;
+            padding: 10px;
+            border-radius: 20px;
+            margin-top: 3%;
+        }
+
+        #mini-container {
+            position: relative;
+            text-align: center;
+            float: center;
+            background-color: rgb(249, 250, 203);
+            width: 92%;
+            height: 620px;
+            padding: 10px;
+            margin-left: 3%;
+            border-radius: 20px;
+            height: auto;
+        }
+
+        .mini-mini-container1 {
+            position: absolute;
+            width: 60%;
+
+        }
+
+        .mini-mini-container1 h3 {
+            text-align: left;
+        }
+
+        .mini-mini-container1 p {
+            text-align: left;
+        }
+
+        .mini-mini-container2 {
+            position: absolute;
+            margin-left: 60%;
+        }
+
+
+        #button {
+            padding: 12px;
+            width: 100px;
+            color: white;
+            background-color: #4a6804;
+            border-radius: 10px;
+        }
+
+        #button:hover {
+            cursor: pointer;
+        }
+
+        #text {
+            position: absolute;
+            height: 35px;
+            border-radius: 10px;
+            padding: 4px;
+            border: solid thin #aaa;
+        }
+
+        #text:hover {
+            cursor: pointer;
+        }
+
+        #shortcut {
+            background-color: white;
+            padding: 6px;
+            color: #002D62;
+            border-radius: 20px;
+        }
+
+
+        #container2 {
+            align-self: left;
+            float: left;
+            margin-left: 1%;
+            background-color: yellowgreen;
+            width: 25%;
+            height: auto;
+            padding: 10px;
+            border-radius: 30px;
+            margin-top: 3%;
+        }
+
+        #mini-container2 {
+            position: relative;
+            text-align: center;
+            background-color: #228B22;
+            width: 92%;
+            height: auto;
+            padding: 10px;
+            margin-left: 1.5%;
+            border-radius: 30px;
+        }
+        
+        .exam-section {
+            margin-left: 5%;
+            align-self: center;
+            border-radius: 10px;
+            width: 90%;
+            height: 18%;
+            padding: .5%;
+            background: white;
+            margin-top: 2%;
+        }
+
+        .exam-test {
+            float: right;
+            border-radius: 20px;
+            background: rgb(199, 199, 46);
+            width: 70%;
+            height: auto;
+            margin-right: 1%;
+        }
+
+        .exam-intro {
+            padding: 10px;
+            margin: 2%;
+            border-radius: 15px;
+        }
+
+        .list-course {
+            padding: 3%;
+        }
+
+        .exam-button {
+            margin-left: 74%;
+
+            text-align: center;
+
+            width: 200px;
+            ;
+            height: auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 5px 5px black;
+        }
+
+
+        #button {
+            padding: 12px;
+            width: 100px;
+            color: white;
+            background-color: #004526;
+            border-radius: 10px;
+        }
+
+        #button:hover {
+            cursor: pointer;
+        }
+
+        #text {
+            position: absolute;
+            height: 35px;
+            border-radius: 10px;
+            padding: 4px;
+            border: solid thin #aaa;
+        }
+
+        #text:hover {
+            cursor: pointer;
+        }
+
+        #shortcut {
+            background-color: white;
+            padding: 6px;
+            color: #002D62;
+            border-radius: 20px;
+        }
