@@ -101,9 +101,6 @@ if ($ans1 && $ans2) {
             </div>
         </form>
         <div class="navigation">
-            <a href="home_home.php">Home</a>
-            <a href="home_about.php">About</a>
-            <a href="home_contact.php">Contact</a>
             <a href="log_logout.php">LOGOUT</a>
         </div>
 
