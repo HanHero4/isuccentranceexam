@@ -89,7 +89,7 @@ if ($ans1 && $ans2) {
     </script>
 </head>
 
-<body onload="f1()">
+<body onload="f1()" style="background-color: white;">
     <header>
         <a href="https://isucauayan.edu.ph/"><img src="schoollogo.png" alt="logo" class="logo"></a>
         <form id="form1" runat="server">
