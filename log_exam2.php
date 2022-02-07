@@ -29,7 +29,7 @@ if ($exam_instance) {
     <link rel="stylesheet" href="style_log.css">
 </head>
 
-<body>
+<body style="background-color: white">
 
 <header>
         <a href="https://isucauayan.edu.ph/"><img src="schoollogo.png" alt="logo" class="logo" style="width: 75px;"> </a>
