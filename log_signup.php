@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 </head>
 
 
-<body style="background-color: white;">
+<body style="background-image: url('signup2.jpg'); background-size: cover;">
 <header>
         <a href="https://isucauayan.edu.ph/"><img src="schoollogo.png" alt="logo" class="logo" style="width: 75px;"> </a>
             <div class="navigation">
