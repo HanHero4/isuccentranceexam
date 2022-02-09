@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p style="text-align: left;">Password</p>
                         <input id="text" type="password" name="password" style="margin-left: -50%">
-                        <br><br><br>
+                        <br><br><br><br>
 
                         <p style="text-align: left;">Before you Click Sign Up . Please Click this <a href="https://mail.google.com/mail/">here</a> and send your Report Card to isucc.edu.ph@gmail.com for 
                             verification of the information you entered.</p>
