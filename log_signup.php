@@ -133,9 +133,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         <input id="text" type="password" name="password" style="margin-left: -50%">
                         <br><br><br>
 
-                        <p style="text-align: left;">E-Mail of your previous school's Registrar Office (this is to verify that what you input 
-                            here is true). Alternatively, you can email at entrance.exam@isucc.edu.ph your report
-                        card for instant validation of your information</p>
+                        <p style="text-align: left;">Before you Click Sign Up . Please Click this <a href="https://mail.google.com/mail/">here</a> and send your Report Card to isucc.edu.ph@gmail.com for 
+                            verification of the information you entered.</p>
                         <div style="margin-left: -100%;">
                             <input id="text" type="email" name="schoolmail" style="width:50%;">
                         </div>
