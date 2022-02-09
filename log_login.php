@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <body>
     <section>
-    <header>
+    <header style="background-color:#228B22";>
         <a href="https://isucauayan.edu.ph/"><img src="schoollogo.png" alt="logo" class="logo" style="width: 75px;"> </a>
             <div class="navigation">
                 <a href="home_home.php">Home</a>
