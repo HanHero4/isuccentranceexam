@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
         <div id="container">
-            <div id="mini-container">
+            <div id="mini-container" style="background-color: white;">
                 <form method="post">
                     <div style="font-size: 45px; margin: 15px; color: black; font-weight:bold;">LOG IN</div>
 
