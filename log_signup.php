@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <br>
                         <h3>Educational Background</h3>
-                        <p>High School Campus</p>
+                        <p>Senior High School Graduated</p>
                         <div style="margin-left: -100%;">
                             <input id="text" type="text" name="campus" style="width:90%;">
                         </div>
