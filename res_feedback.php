@@ -99,7 +99,7 @@ if (!empty($comment)) {
             <div id="container" style="height: 150px;">
                 <div id="mini-container">
                     <br>
-                    <div class="exam-section" style="height: 50%; background-color: #228B22;">
+                    <div class="exam-section" style="height:  70px; background-color: #228B22;">
                         <p>COURSE RECOMMENDATION</p>
                     </div>
                 </div>
