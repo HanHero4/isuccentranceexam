@@ -867,7 +867,7 @@ if ($ans1 && $ans2) {
             <div id="container" style="height: 150px; margin-top: 1%;">
                 <div id="mini-container">
                     <br>
-                    <div class="exam-section" style="height: 100px;">
+                    <div class="exam-section" style="height: 75px;">
                         <p>COURSE RECOMMENDATION</p>
                     </div>
                 </div>
