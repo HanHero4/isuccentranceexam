@@ -539,7 +539,7 @@ $qstn = mysqli_query($con, $sql);
         <div id="container" style="height: 150px; margin-top: 1%;">
             <div id="mini-container">
                 <br>
-                <div class="exam-section" style="height: 50%; background-color:yellow">
+                <div class="exam-section" style="height:  70px; background-color:yellow">
                     <p>COURSE RECOMMENDATION</p>
                 </div>
             </div>
