@@ -75,7 +75,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 <form method="post">
                     <div style="font-size: 45px; margin: 15px; color: black; font-weight:bold;">LOG IN</div>
 
+                    <p>Username</p>
                     <input id="text" type="text" name="user_name" style="margin-left:-10%"><br><br><br>
+                    <p>Password</p>
                     <input id="text" type="password" name="password" style="margin-left:-10%"><br><br><br><br>
 
                     <input id="button" type="submit" value="Login"> <br> <br>
