@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p style="text-align: left;">Password</p>
                         <input id="text" type="password" name="password" style="margin-left: -50%">
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
                         <p style="text-align: left;">Email Address</p>
                         <div style="margin-left: -100%;">
@@ -139,11 +139,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         </div>
                     </div>
 
-                    <br><br>
+                    <br><br><br><br><br><br>
                     
                     <input id="button" type="submit" value="Signup" style="margin-top: 50%; margin-left: 80%"> <br> <br>
                     <a href="log_login.php" id="shortcut" style="margin-left: 80%">Click to Log In</a>
-                    <br><br><br><br><br><br><br><br>
+                    <br><br><br><br>
                 </form>
             </div>
         </div>
