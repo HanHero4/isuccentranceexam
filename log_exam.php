@@ -123,7 +123,7 @@ if ($exam_instance) {
                 </div></div>
 
                 <div id="container2" style="height: 150px; margin-top: 1%;">
-                <div id="mini-container2" style="height: 150px;" ;>
+                <div id="mini-container2";>
                     <br>
                     <div class="exam-section" style="height: 50%">
                         <p>COURSE RECOMMENDATION</p>
