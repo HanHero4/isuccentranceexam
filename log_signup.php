@@ -99,7 +99,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         
                         <p>Gender</p>
                         <div style="margin-left: -70%;">
-                        <div>
                             <input type="radio" value="Male" name="gender">Male
                             <input type="radio" value="Female" name="gender">Female
                         </div>
