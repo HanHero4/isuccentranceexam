@@ -11,6 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $first_name = $_POST['first_name'];
     $middle_name = $_POST['middle_name'];
     $age = $_POST['age'];
+    $gender = $_POST['gender'];
     $address = $_POST['address'];
     $gwa = $_POST['gwa'];
     $campus = $_POST['campus'];
@@ -26,8 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         //save to database
         $user_id = random_int(0, 100000);
-        $query = "insert into users (user_id,user_name,password, last_name, first_name, middle_name, age, address, gwa, campus, schoolmail) values 
-                    ('$user_id','$user_name','$password', '$last_name','$first_name','$middle_name','$age','$address','$gwa','$campus', '$schoolmail')";
+        $query = "insert into users (user_id,user_name,password, last_name, first_name, middle_name, age, address, gwa, campus, schoolmail, gender) values 
+                    ('$user_id','$user_name','$password', '$last_name','$first_name','$middle_name','$age','$address','$gwa','$campus', '$schoolmail', "$gender')";
 
         mysqli_query($con, $query);
 
@@ -92,6 +93,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         <p>Age</p>
                         <div style="margin-left: -100%;">
                             <input id="text" type="int" name="age">
+                        </div>
+
+                        <br><br><br>
+                        
+                        <p>Gender</p>
+                        <div style="margin-left: -100%;">
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
                         </div>
 
                         <br><br><br>
