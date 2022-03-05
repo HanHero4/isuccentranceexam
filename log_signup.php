@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         //save to database
         $user_id = random_int(0, 100000);
         $query = "insert into users (user_id,user_name,password, last_name, first_name, middle_name, age, address, gwa, campus, schoolmail, gender) values 
-                    ('$user_id','$user_name','$password', '$last_name','$first_name','$middle_name','$age','$address','$gwa','$campus', '$schoolmail', "$gender')";
+                    ('$user_id','$user_name','$password', '$last_name','$first_name','$middle_name','$age','$address','$gwa','$campus', '$schoolmail', '$gender')";
 
         mysqli_query($con, $query);
 
