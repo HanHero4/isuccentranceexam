@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         <section>
         <div id="container" >
-            <div id="mini-container" style="background-image: url(signup2.jpg); background-size: cover; background-repeat:no-repeat;">
+            <div id="mini-container" style="background-image: url(signup2.jpg); background-size: cover; background-repeat:no-repeat; height: 700px;">
                 <form method="post">
                     <div style="font-size: 45px; margin: 15px; color: black; font-weight:bold;">SIGN UP</div>
 
