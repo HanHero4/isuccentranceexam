@@ -140,7 +140,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p style="text-align: left;">Password</p>
                         <input id="text" type="password" name="password" style="margin-left: -50%">
-                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br>
 
                         <p style="text-align: left;">Email Address</p>
                         <div style="margin-left: -100%;">
