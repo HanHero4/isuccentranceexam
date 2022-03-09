@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p>Address (barangay, municipality, province/state)</p>
                         <div style="margin-left: -100%;">
-                            <input id="text" type="text" name="address" style="width:85%;">
+                            <input id="text" type="text" name="address" style="width:95%;">
                         </div>
 
                         <br><br><br><br>
@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         <h3>Educational Background</h3>
                         <p>Senior High School Graduated</p>
                         <div style="margin-left: -100%;">
-                            <input id="text" type="text" name="campus" style="width:90%;">
+                            <input id="text" type="text" name="campus" style="width:95%;">
                         </div>
 
                         <br><br><br>
@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p style="text-align: left;">Email Address</p>
                         <div style="margin-left: -100%;">
-                            <input id="text" type="email" name="schoolmail" style="width:50%;">
+                            <input id="text" type="email" name="schoolmail" style="width:95%;">
                         </div>
                     </div>
 
