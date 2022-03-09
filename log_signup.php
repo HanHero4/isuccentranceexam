@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <p style="text-align: left;">Email Address</p>
                         <div style="margin-left: -100%;">
-                            <input id="text" type="email" name="schoolmail" style="width:95%;">
+                            <input id="text" type="email" name="schoolmail" style="width:100%;">
                         </div>
                     </div>
 
