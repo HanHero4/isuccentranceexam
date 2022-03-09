@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         <br><br><br>
 
-                        <p>Address (barangay, municipality, province/state)</p>
+                        <p>Address (Barangay, Municipality, Province/State)</p>
                         <div style="margin-left: -100%;">
                             <input id="text" type="text" name="address" style="width:95%;">
                         </div>
