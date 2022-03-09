@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                     <div class="mini-mini-container1">
                         <h3>Personal Information</h3>
-                        <p>Full name (last, first, middle)</p>
+                        <p>Full name (Last, First, Middle)</p>
                         <div style="margin-left: -100%;">
                             <input id="text" type="text" name="last_name" style="width:30%;">
                         </div>
